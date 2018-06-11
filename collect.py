@@ -7,7 +7,7 @@ from urllib.request import urlopen, Request
 from urllib.parse import quote
 from bs4 import BeautifulSoup
 
-MY_EMAIL_ADDR = 'reideeplearning@gmail.com'
+MY_EMAIL_ADDR = 'ここに自分のメールアドレス'
 
 class Fetcher:
     def __init__(self, ua=''):
