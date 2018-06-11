@@ -28,7 +28,7 @@ class Fetcher:
 fetcher = Fetcher(MY_EMAIL_ADDR)
 
 def fetch_and_save_img(word):
-    data_dir = 'data/data15'
+    data_dir = 'ここに保存先のディレクトリ名/'
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
 
