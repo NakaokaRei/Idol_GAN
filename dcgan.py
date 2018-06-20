@@ -71,12 +71,12 @@ def combine_images(generated_images, GENERATED_IMAGE_PATH, epoch, index):
 
 BATCH_SIZE = 32
 NUM_EPOCH = 30000
-GENERATED_IMAGE_PATH = 'ここに生成画像を保存するディレクトリ名/' # 生成画像の保存先
+GENERATED_IMAGE_PATH = 'generaed_image/' # 生成画像の保存先
 
 
 def train():
 
-    files = glob.glob('ここに訓練画像のディレクトリ名/*.jpg')
+    files = glob.glob('訓練画像ディレクトリ/*.jpg') #訓練画像ディレクトリ
     images = []
     for f in files:
         img = Image.open(f)
