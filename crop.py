@@ -20,7 +20,7 @@ for i in pic:
     image_gs = cv2.imread(in_jpg + i)
 
     # 顔認識用特徴量ファイルを読み込む --- （カスケードファイルのパスを指定）
-    cascade = cv2.CascadeClassifier('/usr/local/opt/opencv/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml')
+    cascade = cv2.CascadeClassifier('/Users/rei/.pyenv/versions/anaconda3-5.2.0/envs/py36/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml')
 
 
     # 顔認識の実行
